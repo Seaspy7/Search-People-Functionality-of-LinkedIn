@@ -1,0 +1,88 @@
+Unit 1.0 Login Testing - LinkedIn
+----------------------------------
+Test Scenario: Verify the login functionality of 
+LinkedIn login Page
+ 
+Test Case 1.01	
+Test Data: Open LinkedIn Web Application	
+Test Result:Login Screen is displayed where user can enter login information and login field should display message to enter either email or phone number.
+
+Test Case 1.02
+Test Data: Enter valid username email: seandissanayake@gmail.com and valid password: LoveTesting123	
+Test Result: Login Successful and Main page is displayed on LinkedIn
+
+Test Case 1.03
+Test Data:	Click on drop-down menu “Me”	
+Test Result: Drop-down menu is displayed with various options
+
+Test Case: 1.04	
+Test Data: On the drop-down Menu “Me” click on the “Sign Out” option	
+Test Result: Logout successfully and Login Screen is displayed
+
+Test Case: 1.05	
+Test Data: Enter valid phone number: 4168191971 and Enter valid password: LoveTesting123
+Test Result: Login Successful and main screen is displayed on LinkedIn
+
+Test Case: 1.06	
+Test Data: Click on drop-down menu “Me”	
+Test Result: Drop-down menu is displayed with various options
+
+Test Case: 1.07	
+Test Data: On the drop-down Menu “Me” click on the “Sign Out” option	
+Test Result: Logout successfully and Login Screen is displayed
+
+Test Case: 1.08	
+Test Data: Enter valid username [all uppercase]: SEANDISSANAYAKE@GMAIL.COM and Enter valid password: LoveTesting123	Login Successful
+Test Result: Main screen is displayed on LinkedIn
+
+Test Case: 1.09	
+Test Data: Click on drop-down menu “Me	
+Test Result: Drop-down menu is displayed with various options
+
+Test Case: 1.10
+Test Data: On the drop-down Menu “Me” click on the “Sign Out” option	
+Test Result: Logout successfully and Login Screen is displayed
+
+Test Case: 1.11	
+Test Data: Enter in password field: “LoveTesting123” and Click on “Show” button
+Test Result: Reveals password “LoveTesting123”
+
+Test Case: 1.12	
+Test Data: Click on “Hide” button	
+Test Result: Conceals password 
+
+Test Case: 1.13	
+Test Data: Enter wrong username email: SSeandissanayake@gmail.com and Enter valid password: LoveTesting123
+Test Result: Error message: “Couldn’t find a LinkedIn account associated with this email. Please try again.”
+
+Test Case: 1.14	
+Test Data: Enter wrong username phone number: “416819197154321” and Enter valid password: LoveTesting123	
+Test Result: Error message: “Couldn’t find a LinkedIn account associated with this email. Please try again.”
+
+Test Case: 1.15	
+Test Data: Skip username field. and Enter valid password: LoveTesting123
+Test Result: Error Message is displayed: “Please enter your email address or mobile number.”
+
+Test Case: 1.16	
+Test Data: Enter valid username email: seandissanayake@gmail.com and Enter wrong password [all uppercase]: “LOVETESTING123” 	
+Test Result: Error message: “That's not the right password. Try again or sign in with a one-time link”
+
+Test Case: 1.17	Enter valid username email: seandissanayake@gmail.com and Enter wrong password: “applesandpears”	
+Test Result: Error message: “That's not the right password. Try again or
+sign in with a one-time link”
+
+Test Case: 1.18	
+Test Data: Enter valid username phone number: 4168191971 and Enter wrong password: [all uppercase]: “LOVETESTING123”	
+Test Result: Error message: “That's not the right password. Try again or sign in with a one-time link”
+
+Test Case: 1.19	
+Test Data: Enter valid username phone number: 4168191971 and Enter wrong password: “applesandpears”	
+Test Result: Error message: “That's not the right password. Try again or sign in with a one-time link”
+
+Test Case: 1.20	
+Test Data: Enter valid username email: seandissanayake@gmail.com and Skip Password	
+Test Result: Error message: “Please enter your password.”
+
+Test Case: 1.21	
+Test Data: Enter valid username phone number: 4168191971 and Skip Password	
+Test Result: Error message: “Please enter your password.”
