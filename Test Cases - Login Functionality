@@ -12,7 +12,7 @@ Test Data: Enter valid username email: seandissanayake@gmail.com and valid passw
 Test Result: Login Successful and Main page is displayed on LinkedIn
 
 Test Case 1.03
-Test Data:	Click on drop-down menu “Me”	
+Test Data: Click on drop-down menu “Me”	
 Test Result: Drop-down menu is displayed with various options
 
 Test Case: 1.04	
