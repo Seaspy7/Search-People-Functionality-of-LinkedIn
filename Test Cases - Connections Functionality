@@ -1,0 +1,62 @@
+UNIT 2.0: Connections
+---------------------
+
+Test Case: 2.01	
+Test Data: Open LinkedIn Web Application, Enter valid username email: “seandissanayake@gmail.com” and Enter valid password: “LoveTesting123”	
+Test Results: Login Successful and Main page is displayed on LinkedIn
+
+Test Case: 2.02	
+Test Data: On the LinkedIn main page, Click on “My Network” near the top of the webpage	
+Test Results: “My Network” page is displayed
+
+Test Case: 2.03	
+Test Data: In the “My Network” page, under “Manage my network", Click on “Connections”	
+Test Results: “Connections” page is displayed
+
+Tset Case: 2.04	
+Test Data: On the “Connections” page, Click on link-text “Search with filters”	
+Test Results: New page is displayed where filter search can take place
+
+Test Case: 2.05	
+Test Data: On the “Search with Filters” page, Click on “All Filters” and Verify that Filter only “People” by is set on default	
+Test Results: “All Filters” tab is displayed on the right side of the page and “People” Filter is displayed by default
+
+Test Case: 2.06	
+Test Data: Navigate to “Connections” section inside “All Filters” Tab and Verify that “1st”, “2nd” and “3rd” option is displayed 	
+Test Results: “Connections” is displaying options “1st”. “2nd”, “3rd+”
+
+Test Case: 2.07	
+Test Data: Click on “1st” option checkbox and Click on “Show Results” Button
+Test Results: “1st” option checkbox is checked and Results are displayed for people with 1st connections 
+
+Test Case: 2.08
+Test Data: Click on “Reset” Button, Click on “All Filters” Button and Verify “1st” option checkbox is unchecked	
+Test Results: Connections has been reset, “All Filters” tab is displayed on the right of the screen and “1st” option checkbox is unchecked in the “All Filters” tab
+
+Test Case: 2.09	
+Test Data: In the “Connections” section of “All Filters” Tab, Click on “2nd” option checkbox and Click on "Show Results Button”	
+Test Results: “2nd” option checkbox is checked and results are displayed for people with 2nd connections 
+
+Test Case: 2.10	
+Test Data: Click on “Reset” Button, Click on “All Filters” Button and Verify “2nd” option checkbox is unchecked in 	
+Test Results: Connections has been reset, “All Filters” tab is displayed on the right of the screen and “2nd” option checkbox is unchecked in the “All Filters” tab
+
+Test Case: 2.11	
+Test Data: In the “Connections” section of “All Filters” Tab, Click on “3rd+” option checkbox and Click on "Show Results Button”	
+Test Results: “3rd+” option checkbox is checked and Results are displayed for people with 3rd connections 
+
+Test Case: 2.12	
+Test Data: Click on “Reset” Button, Click on “All Filters” Button and Verify “3rd” option checkbox is unchecked	Connections has been reset
+Test Results: “All Filters” tab is displayed on the right of the screen and “3rd” option checkbox is unchecked in the “All Filters” tab
+
+Test Case: 2.13	
+Test Data: In the “Connections” section of “All Filters” Tab, Click on “1st”, “2nd” and “3rd+” option checkbox and Click on "Show Results Button”	“1st”, “2nd”, and “3rd+” option checkbox is checked
+Test Results: Results are displayed for people with “1st” “2nd” and “3rd+” connections 
+
+Test Case: 2.14	
+Test Data: Click on “Reset” Button, Click on “All Filters” Button and Verify “1st”, “2nd”, and “3rd+” option checkbox is unchecked	Connections has been reset
+Test Results: “All Filters” tab is displayed on the right of the screen and “1st”, “2nd”, and “3rd+” option checkbox is unchecked in the “All Filters” tab
+
+Test Case: 2.15	
+Test Data: On the “All Filters” Tab, Click the “X” button	
+Test Results: “All Filters” Tab closes and disappears from screen
