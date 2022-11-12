@@ -67,7 +67,8 @@ Test Case: 1.16
 Test Data: Enter valid username email: seandissanayake@gmail.com and Enter wrong password [all uppercase]: “LOVETESTING123” 	
 Test Result: Error message: “That's not the right password. Try again or sign in with a one-time link”
 
-Test Case: 1.17	Enter valid username email: seandissanayake@gmail.com and Enter wrong password: “applesandpears”	
+Test Case: 1.17	
+Test Data: Enter valid username email: seandissanayake@gmail.com and Enter wrong password: “applesandpears”	
 Test Result: Error message: “That's not the right password. Try again or
 sign in with a one-time link”
 
